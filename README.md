@@ -1,3 +1,11 @@
+:exclamation:Deprecated:exclamation:
+==========
+
+As of version v0.14.40, inotify is built into syncthing and can be enabled in the advanced configuration menu for individual folders.
+We expect to expose it in the folder configuration UI in the near future.
+
+### Old readme
+
 #### What is this?
 Syncthing ([core](https://github.com/syncthing/syncthing)) uses a rescan interval to detect changes in folders. This application (syncthing-inotify) uses OS primitives to detect changes as soon as they happen. Therefore, if you save a file, syncthing-inotify will know about it and pass this information to Syncthing such that near real-time synchronisation can be achieved.
 
