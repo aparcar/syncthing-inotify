@@ -1,8 +1,9 @@
-:exclamation:Deprecated:exclamation:
+:exclamation:Deprecation:exclamation:
 ==========
 
-As of version v0.14.40, inotify is built into syncthing and can be enabled in the advanced configuration menu for individual folders.
-We expect to expose it in the folder configuration UI in the near future.
+As of version v0.14.40, the functionality of syncthing-inotify is integrated in Syncthing and can be enabled in the advanced configuration menu for individual folders. We expect to expose it in the folder configuration UI in the near future.
+
+Syncthing-inotify still works and is expected to keep working, but maintaining efforts will be focussed on the integrated functionality. Therefore it is recommended to switch soon(ish). You are very welcome to switch right now: It is already running on many devices, yet it is still fresh - (minor) bugs are to be expected.
 
 ### Old readme
 
