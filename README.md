@@ -21,7 +21,7 @@ screen -S inotify -dm ./syncthing-inotify
 ```
   * Run and hide on windows in .vbs script
 ```
-CreateObject("Wscript.Shell").Run "syncthing-inotify.exe, 0, True
+CreateObject("Wscript.Shell").Run "syncthing-inotify.exe", 0, True
 ```
   * Run and hide on windows using API key in .vbs script
 ```
